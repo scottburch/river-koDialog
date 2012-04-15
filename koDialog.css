@@ -1,0 +1,33 @@
+.dialogMask {
+    background: none repeat scroll 0 0 #333;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.dialogWindow {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    padding: 5px;
+}
+
+#koDialogBody {
+    height: 100%;
+}
+
+.koDialogClose {
+    height:22px;
+    width: 22px;
+    background: url(close.png);
+    position: absolute;
+    right: -11px;
+    top: -11px;
+}
+

@@ -1,0 +1,6 @@
+    <div class="dialogMask" data-bind="visible:modal && visible"></div>
+    <div class="dialogWindow" data-bind="visible:visible,style:{height:height, marginTop:marginTop, width:width, marginLeft:marginLeft}">
+        <div class="koDialogClose" data-bind="click:close"></div>
+        <div data-bind="attr:{id:'koDialogBody-'+name}"></div>
+    </div>
+
